@@ -1,7 +1,7 @@
 {
-  "name": "understrap-child",
-  "version": "0.5.5",
-  "description": "Basic Child Theme for UnderStrap Theme Framework: https://github.com/holger1411/understrap",
+  "name": "bustawin-wp-theme",
+  "version": "0.1",
+  "description": "The theme of the bustawin website",
   "main": "index.js",
   "scripts": {
     "postinstall": "gulp copy-assets"
@@ -17,12 +17,9 @@
     "bootstrap",
     "underscores"
   ],
-  "author": "Holger Koenemann",
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/holger1411/understrap-child/issues"
-  },
-  "homepage": "https://understrap.com",
+  "author": "Xavier Bustamante",
+  "license": "AGPLV2",
+  "homepage": "https://bustawin.com",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "browser-sync": "^2.26.3",
@@ -30,6 +27,7 @@
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-clone": "^2.0.1",
     "gulp-concat": "^2.6.1",
@@ -50,6 +48,7 @@
     "popper.js": "^1.15.0",
     "run-sequence": "^2.2.1",
     "understrap": "^0.9.1",
-    "undescores-for-npm": "^1.0.0"
+    "undescores-for-npm": "^1.0.0",
+    "yarn": "^1.17.3"
   }
 }

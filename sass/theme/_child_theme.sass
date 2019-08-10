@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:400,700&display=swap')
+
+.single-header
+  background-color: $jumbotron-bg
+  padding-left: 1em
+  padding-right: 1em
+  padding-top: 3em
+
+  &::first-letter
+    font-size: 1.30em
+
+.padding-top
+  padding-top: 1em
+
+// Bustawin page
+
+$bustawin-about-logo-width: 10em
+#bustawin-about
+  width: $bustawin-about-logo-width
+  position: absolute
+  left: calc(50vw - #{$bustawin-about-logo-width/2})
+  bottom: -$bustawin-about-logo-width/2
+
+#bustawin-about-content
+  margin-top: $bustawin-about-logo-width/2 + 1em
+
+.navbar-brand
+  font: italic 1.5em "Roboto Slab"
+  text-shadow: 1px 1px 2px $primary / 2
