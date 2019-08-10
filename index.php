@@ -26,8 +26,8 @@ $container = get_theme_mod('understrap_container_type');
         <?php else : ?>
             <?php get_template_part('loop-templates/content', 'none'); ?>
         <?php endif; ?>
+        <?php understrap_pagination(); ?>
     </main>
-      <?php understrap_pagination(); ?>
       <?php get_template_part('sidebar-templates/sidebar', 'right'); ?>
   </div>
 </div>

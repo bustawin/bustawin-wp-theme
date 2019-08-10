@@ -46,7 +46,7 @@ $container = get_theme_mod('understrap_container_type');
            title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
            itemprop="url">
             <?php bloginfo('name'); ?>
-          <img class="d-inline-block d-sm-none"
+          <img class="d-inline-block d-md-none"
                src="<?php print get_stylesheet_directory_uri() . '/img/timmy-blog-small.png' ?>">
         </a>
 

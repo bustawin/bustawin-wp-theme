@@ -14,7 +14,7 @@ defined('ABSPATH') || exit;
 >
   <div class="d-flex w-100 justify-content-between">
     <h3 class="mb-1"><?php the_title() ?></h3>
-    <small>
+    <small style="word-break: keep-all">
         <?php echo get_the_modified_date(); ?>
     </small>
   </div>

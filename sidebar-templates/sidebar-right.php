@@ -11,7 +11,7 @@ defined('ABSPATH') || exit;
 <aside class="col-md-3 widget-area padding-top" id="right-sidebar" role="complementary">
   <img src="<?php print get_stylesheet_directory_uri() . '/img/timmy-blog.png' ?>"
        id="timmy-coffee"
-       class="img-responsive d-none d-sm-block"
+       class="img-responsive d-none d-md-block"
        title="Me, a merciless coder, writer, and manager."
   >
   <hr>
