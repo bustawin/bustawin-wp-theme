@@ -71,12 +71,12 @@ the_post();
           <dt><a href="https://twitter.com/adrianafreitas/status/1141738244561874945">ereuse.org
               presentation in ESADE</a></dt>
           <dd>
-            Ereuse.org presentation in ESADE as part of the Ship2B acceleration program.
+            Ereuse.org / DeviceTag.io presentation in ESADE as part of the Ship2B acceleration program.
           </dd>
           <dt><a href="https://www.youtube.com/embed/n522VLSXujk?t=586">ereuse.org presentation in
               Ledger event</a></dt>
           <dd>
-            Ereuse.org presentation part of the Ledger EU program.
+            Ereuse.org / DeviceTag.io presentation part of the Ledger EU program.
           </dd>
         </dl>
       </article>
