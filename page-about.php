@@ -27,10 +27,11 @@ the_post();
   <div class="row">
     <div class="col-md-12">
       <p class="lead">
-        I am a Software Engineer specialized in project/product management and disruptive
-        technologies (e.g., iOT).
+        I am a Software Engineer specialized in project/product management, disruptive
+        technologies (e.g., iOT), software architecture, and python.
       </p>
-      <p>I co-founded and served as Chief Product Officer (CPO) of DeviceTag.io, a social startup
+      <p>
+        I co-founded and served as Chief Product Officer (CPO) of DeviceTag.io, a social startup
         that provides solutions for reusing devices using breakthrough technologies, and
         eReuse.org, a federation that promotes circular economy in the reuse sector. They received
         several funding from the governments of the EU, Spain, Catalonia, and Barcelona; and they
@@ -38,9 +39,18 @@ the_post();
       </p>
       <p>
         I am an entrepreneur who enjoys doing projects that help shape a better world, teaching to
-        diverse collectives about software, writing in my tech blog (bustawin.com), and developing
-        free software.
+        diverse collectives about software, developing in python, and writing in this blog.
       </p>
+      <div class="alert alert-secondary">
+        <h4 class="alert-heading">
+          Looking for business opportunities
+          <i class="fa fa-thumbs-o-up"></i>
+        </h4>
+        <p>
+          I am looking for opportunities as a software engineer / project manager, specially
+          in organizations with social values. <a href="mailto:hello@bustawin.com">Let's talk</a>.
+        </p>
+      </div>
       <hr>
       <article>
         <header>
@@ -71,7 +81,8 @@ the_post();
           <dt><a href="https://twitter.com/adrianafreitas/status/1141738244561874945">ereuse.org
               presentation in ESADE</a></dt>
           <dd>
-            Ereuse.org / DeviceTag.io presentation in ESADE as part of the Ship2B acceleration program.
+            Ereuse.org / DeviceTag.io presentation in ESADE as part of the Ship2B acceleration
+            program.
           </dd>
           <dt><a href="https://www.youtube.com/embed/n522VLSXujk?t=586">ereuse.org presentation in
               Ledger event</a></dt>
@@ -79,6 +90,34 @@ the_post();
             Ereuse.org / DeviceTag.io presentation part of the Ledger EU program.
           </dd>
         </dl>
+      </article>
+      <hr>
+      <article>
+        <header>
+          <h3 id="teaching">
+            Teaching
+          </h3>
+          <dl>
+            <dt><a href="https://gbsge.com/barcelona-campus-spain/">Geneva Business School
+                Barcelona Campus</a></dt>
+            <dd>BBA. Coding (Spring 2019, Fall 2019), Website development and project management
+              (Spring 2019, Fall 2019).
+            </dd>
+            <dt><a href="http://trinijove.org">Trinijove (NGO)</a></dt>
+            <dd>Youth in social exclusion risk. Website development (Spring 2015).</dd>
+            <dt><a href="https://reutilitza.upc.edu">Tecnologia per Tothom, TxT (NGO under UPC,
+                Universitat Politècnica de Catalunya)</a></dt>
+            <dd>Volunteer. Bachelor in software engineering and bachelor in telecommunications.
+              Socio-environmental impact of technology and reuse (Biannual conference, 2013 —
+              2019).
+            </dd>
+            <dt><a href="https://jediupc.com">JEDI (Joves Estudiants D’Informàtica, student
+                association)</a></dt>
+            <dd>Lecturer (2012) and president (2012 – 2014). Bachelor in software engineering.
+              Website development.
+            </dd>
+          </dl>
+        </header>
       </article>
       <hr>
       <article>
