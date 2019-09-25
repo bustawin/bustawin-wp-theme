@@ -44,11 +44,10 @@ the_post();
       <div class="alert alert-secondary">
         <h4 class="alert-heading">
           Looking for business opportunities
-          <i class="fa fa-thumbs-o-up"></i>
         </h4>
-        <p>
+        <p class="mb-0">
           I am looking for opportunities as a software engineer / project manager, specially
-          in organizations with social values. <a href="mailto:hello@bustawin.com">Let's talk</a>.
+          in organizations pursuing social value. <a href="mailto:hello@bustawin.com">Let's talk</a>.
         </p>
       </div>
       <hr>
@@ -67,7 +66,7 @@ the_post();
             numbers, testing, benchmarking, erasing, and installing an OS.
           </dd>
           <dt><a href="https://github.com/eReuse/devicehub-teal/tree/beta">Devicehub</a></dt>
-          <dd>A distributed IT Asset Management System focused in reusing devices.</dd>
+          <dd>A distributed IT Asset Management System focused on reusing devices.</dd>
         </dl>
       </article>
       <hr>
