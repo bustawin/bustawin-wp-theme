@@ -15,15 +15,54 @@
 // Bustawin page
 
 $bustawin-about-logo-width: 10em
+$bustawin-about-logo-padding: $bustawin-about-logo-width/2 + 0.5em
+
+#bustawin-header
+  z-index: 1
+  padding-top: $bustawin-about-logo-padding/2
+  padding-bottom: $bustawin-about-logo-padding
+
 #bustawin-about
   width: $bustawin-about-logo-width
   position: absolute
   left: calc(50vw - #{$bustawin-about-logo-width/2})
   bottom: -$bustawin-about-logo-width/2
 
-#bustawin-about-content
-  margin-top: $bustawin-about-logo-width/2 + 1em
+#bustawin-lead
+  padding-top: $bustawin-about-logo-padding
+  padding-bottom: $bustawin-about-logo-padding/2
+  font-weight: bold
 
 .navbar-brand
   font: italic 1.5em "Roboto Slab"
   text-shadow: 1px 1px 2px $primary / 2
+
+@media print
+  #bustawin-about
+    width: 125px
+    position: initial
+  #bustawin-header
+    padding: 1rem !important
+  #bustawin-lead
+    padding-top: $alert-padding-y
+    padding-bottom: $alert-padding-y
+
+// eu cookie law
+#eu_cookie_law_widget-3
+  @extend .fixed-bottom
+  @extend .container
+  @extend .d-print-none
+
+  > div
+    @extend .alert
+    @extend .alert-secondary
+
+    form
+      @extend .float-right
+      // Remove extra padding of input button to center it
+      margin-top: -$btn-padding-y-sm
+
+      input
+        @extend .btn
+        @extend .btn-primary
+        @extend .btn-sm
