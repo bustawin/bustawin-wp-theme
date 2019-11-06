@@ -137,6 +137,10 @@ function themeprefix_remove_jetpack_css()
     wp_dequeue_style('eu-cookie-law-style');
     wp_dequeue_style('jetpack-social-menu');
     wp_dequeue_style('genericons');
+
+    // Remove Table of contents style
+    wp_dequeue_style('ez-toc');
+    wp_dequeue_style('mivhak');
 }
 
 add_action('wp_enqueue_scripts', 'themeprefix_remove_jetpack_css', 100);

@@ -6,10 +6,16 @@ $headings-font-weight: 300 !default
 
 $white:    #fff !default
 
-$body-bg: #f0f6f3
+$white-yellow: #fffbf9
+$body-bg: $white-yellow
+
 $red: #CD4F64
 $yellow: #cda06e
+$orange: #9D510B
 $green: rgb(119, 146, 86)
+$cyan: #45695F
+$blue: #1D7F76
+
 
 $primary: $red
 $secondary: $yellow
@@ -28,3 +34,14 @@ $navbar-padding-x: 0.1rem
 $navbar-dark-color: $white !default
 $navbar-dark-active-color: $white
 $navbar-brand-padding-y: 0
+
+// Reset backgrounds
+$list-group-bg: transparent
+$breadcrumb-bg: transparent
+$list-group-hover-bg: lighten($secondary, 25%)
+$list-group-active-bg: lighten($secondary, 15%)
+$list-group-active-border-color: darken($list-group-active-bg, 5%)
+$list-group-action-active-bg: $list-group-active-bg
+
+// code
+$code-color: $primary

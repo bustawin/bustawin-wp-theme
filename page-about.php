@@ -32,29 +32,18 @@ the_post();
       <div class="col-sm-10">
         <article class="d-print-none">
           <p>
-            I co-founded and served as Chief Product Officer (2015 – 2019) of DeviceTag.io, a
+            I co-founded and served as Chief Product Officer (2015 – 2019) and Tech Lead of DeviceTag.io, a
             social
             startup
             that provides solutions for reusing devices using breakthrough technologies, and
-            eReuse.org, a federation that promotes circular economy in the reuse sector. They
-            received
-            several funding from the governments of the EU, Spain, Catalonia, and Barcelona; and
-            they
-            were accelerated by <a href="https://ship2b.org">Ship2B</a>,
-            <a href="https://www.civichub.org">CivicHub</a>,
-            and <a href="https://ledgerproject.eu">Ledger</a>.
-          </p>
-          <p>
-            I am an entrepreneur who enjoys doing projects that help shape a better world, teaching
-            to
-            diverse collectives about software, developing in python, and writing in this blog.
+            eReuse.org, a federation that promotes circular economy in the reuse sector.
           </p>
         </article>
         <article>
           <header>
-            <h3 id="experience">
+            <h2 id="experience">
               Experience
-            </h3>
+            </h2>
           </header>
           <dl>
             <ul class="list-inline mb-0 text-muted float-right pt-1">
@@ -65,7 +54,9 @@ the_post();
             <dd>
               <p>
                 Co-founded DeviceTag.io, a social startup that provides solutions for reusing
-                devices using breakthrough technologies, managing a team of 10 people.
+                devices using breakthrough technologies. I managed a dev team of 10 people, we
+                received 0.5M€ in funding from the governments of the EU (Horizon 2020), Spain,
+                and Catalonia; and we were accelerated by Ship2B, CivicHub, and Ledger.
               </p>
             </dd>
             <ul class="list-inline mb-0 text-muted float-right pt-1">
@@ -91,12 +82,44 @@ the_post();
             </dd>
           </dl>
         </article>
-        <hr>
         <article>
           <header>
-            <h3 id="teaching">
+            <h2 id="projects">
+              Projects
+            </h2>
+          </header>
+          <p>Open-source projects I created, developed, and led in DeviceTag.io.</p>
+          <dl>
+            <ul class="list-inline mb-0 text-muted float-right pt-1">
+              <li class="list-inline-item">
+                Python 3.6, Debian/Linux, Terminal based
+              </li>
+              <li class="list-inline-item">
+                (<a href="https://github.com/bustawin/workbench/tree/teal">link</a>)
+              </li>
+            </ul>
+            <dt class="h5 text-primary">Workbench</dt>
+            <dd>Software that creates a hardware report of a computer by extracting
+              component information (e.g. serial numbers), testing, benchmarking, erasing, and
+              installing an OS.
+            </dd>
+            <ul class="list-inline mb-0 text-muted float-right pt-1">
+              <li class="list-inline-item">
+                Python 3.6, PostgreSQL, Flask, MongoDB, API REST, AngularJS
+              </li>
+              <li class="list-inline-item">
+                (<a href="https://github.com/bustawin/devicehub-teal/tree/beta">link</a>)
+              </li>
+            </ul>
+            <dt class="h5 text-primary">Devicehub</dt>
+            <dd>A distributed iOT Asset Management System focused on reusing devices.</dd>
+          </dl>
+        </article>
+        <article>
+          <header>
+            <h2 id="teaching">
               Teaching
-            </h3>
+            </h2>
             <dl>
               <ul class="list-inline mb-0 text-muted float-right pt-1">
                 <li class="list-inline-item">Spring 2019, Fall 2019
@@ -132,12 +155,11 @@ the_post();
             </dl>
           </header>
         </article>
-        <hr>
         <article>
           <header>
-            <h3 id="talks">
+            <h2 id="talks">
               Talks
-            </h3>
+            </h2>
           </header>
           <div class="card bg-transparent border-0">
             <div class="row no-gutters">
@@ -188,47 +210,10 @@ the_post();
             </div>
           </div>
         </article>
-        <hr>
         <article>
-          <header>
-            <h3 id="projects">
-              Projects
-              <small class="text-muted">
-                — Open-source projects I created as CPO.
-              </small>
-            </h3>
-          </header>
-          <dl>
-            <ul class="list-inline mb-0 text-muted float-right pt-1">
-              <li class="list-inline-item">
-                Python 3.6, Debian/Linux, Terminal based
-              </li>
-              <li class="list-inline-item">
-                (<a href="https://github.com/bustawin/workbench/tree/teal">link</a>)
-              </li>
-            </ul>
-            <dt class="h5 text-primary">Workbench</dt>
-            <dd>Software that creates a hardware report of a computer by extracting
-              component information (e.g. serial numbers), testing, benchmarking, erasing, and
-              installing an OS.
-            </dd>
-            <ul class="list-inline mb-0 text-muted float-right pt-1">
-              <li class="list-inline-item">
-                Python 3.6, PostgreSQL, Flask, Mongo, API REST, AngularJS
-              </li>
-              <li class="list-inline-item">
-                (<a href="https://github.com/bustawin/devicehub-teal/tree/beta">link</a>)
-              </li>
-            </ul>
-            <dt class="h5 text-primary">Devicehub</dt>
-            <dd>A distributed iOT Asset Management System focused on reusing devices.</dd>
-          </dl>
-        </article>
-        <hr>
-        <article>
-          <h3 id="education">
+          <h2 id="education">
             Education
-          </h3>
+          </h2>
           <dl>
             <ul class="list-inline mb-0 text-muted float-right pt-1">
               <li class="list-inline-item">Universitat Politècnica de Catalunya
@@ -244,13 +229,17 @@ the_post();
         </article>
         <hr>
         <em>
+          <p class="d-print-none">
+            I am an entrepreneur who enjoys doing projects that help shape a better world, teaching
+            to
+            diverse collectives about software, developing in python, and writing in this blog.
+          </p>
           Creative, agileist, resolutive, and social & environmental activist.
           <span class="text-secondary">Become rich by solving poverty.</span>
         </em>
-        <hr class="d-print-none">
         <article class="d-print-none">
           <header>
-            <h3>About this site</h3>
+            <h2>About this site</h2>
           </header>
           <p>
             This site is a collection of personal notes and tricks about software and programming.
@@ -265,7 +254,7 @@ the_post();
       </div>
       <aside class="col-sm-2">
         <address>
-          <h2>Contact</h2>
+          <h2 id="contact" class="d-print-none">Contact</h2>
           <dl>
             <dt><i class="fa fa-laptop fa-fw align-text-top"></i> Website</dt>
             <dd><a href="https://bustawin.com">bustawin.com</a></dd>
@@ -281,7 +270,7 @@ the_post();
             <dd><a href="tel:+34634541887">+34 634541887</a></dd>
           </dl>
         </address>
-        <hr>
+
         <article>
           <h2>Skills</h2>
           <dl class="row">
@@ -313,6 +302,10 @@ the_post();
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
             </dd>
+            <dt class="col-sm-6">DDD</dt>
+            <dd class="col-sm-6 text-right">
+              <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
+            </dd>
             <dt class="col-sm-6">API/REST</dt>
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
@@ -331,6 +324,10 @@ the_post();
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i>
             </dd>
+            <dt class="col-sm-6">Docker</dt>
+            <dd class="col-sm-6 text-right">
+              <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i>
+            </dd>
             <dt class="col-sm-6">Android</dt>
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
@@ -339,7 +336,7 @@ the_post();
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
             </dd>
-            <dt class="col-sm-6">Node</dt>
+            <dt class="col-sm-6">NodeJS</dt>
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
             </dd>
@@ -395,7 +392,7 @@ the_post();
             </dd>
             <dt class="col-sm-6">English</dt>
             <dd class="col-sm-6 text-right">
-              Advanced
+              Proficient
             </dd>
           </dl>
         </article>
@@ -419,20 +416,3 @@ the_post();
   </div>
 </main>
 <?php get_footer(); ?>
-<style>
-  body {
-    background-color: #fffbf9 !important;
-  }
-
-  a {
-    text-decoration: none !important;
-  }
-
-  .fa-circle, .fa-dot-circle-o {
-    margin-right: 1px
-  }
-
-  @page {
-    margin: 0;
-  }
-</style>

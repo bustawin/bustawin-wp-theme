@@ -12,8 +12,11 @@
 .padding-top
   padding-top: 1em
 
-// Bustawin page
+// print
+@page
+  margin: 0
 
+// Bustawin about page
 $bustawin-about-logo-width: 10em
 $bustawin-about-logo-padding: $bustawin-about-logo-width/2 + 0.5em
 
@@ -41,11 +44,21 @@ $bustawin-about-logo-padding: $bustawin-about-logo-width/2 + 0.5em
   #bustawin-about
     width: 125px
     position: initial
+    margin-right: 1em
   #bustawin-header
     padding: 1rem !important
   #bustawin-lead
     padding-top: $alert-padding-y
     padding-bottom: $alert-padding-y
+  #experience, #contact
+    border-top: none !important
+    padding-top: 0 !important
+    margin-top: 0 !important
+  h2
+    font-size: 28px
+    margin-top: 0.5rem !important
+  p
+    margin-bottom: 0.5rem
 
 // eu cookie law
 #eu_cookie_law_widget-3
@@ -66,3 +79,50 @@ $bustawin-about-logo-padding: $bustawin-about-logo-width/2 + 0.5em
         @extend .btn
         @extend .btn-primary
         @extend .btn-sm
+
+// General
+h2
+  @extend .border-top
+  @extend .pt-3
+  @extend .mt-3
+
+// ez-toc (Table of contents)
+#ez-toc-container
+  @extend .alert
+  @extend .alert-secondary
+  @extend .ml-3
+  @extend .float-right
+
+  .ez-toc-title
+    @extend .alert-heading
+    @extend .h5
+
+  .ez-toc-list
+    @extend .list-unstyled
+
+// code
+code.prettyprint
+  color: $cyan
+
+.mivhak-code-wrapper
+  @extend .alert
+  @extend .alert-secondary
+  @extend .p-1
+
+  .meta
+    @extend .h5
+    @extend .text-center
+
+    .text
+      @extend .d-none
+
+  pre
+    @extend .m-0
+    @extend .border
+
+// Reply
+#reply-title
+  @extend .border-top
+  @extend .border-primary
+  @extend .mt-5
+  @extend .pt-5
