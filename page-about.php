@@ -54,7 +54,7 @@ the_post();
             <dd>
               <p>
                 Co-founded DeviceTag.io, a social startup that provides solutions for reusing
-                devices using breakthrough technologies. I managed a dev team of 10 people, we
+                devices using breakthrough technologies. I managed a dev team of ~7 people, we
                 received 0.5M€ in funding from the governments of the EU (Horizon 2020), Spain,
                 and Catalonia; and we were accelerated by Ship2B, CivicHub, and Ledger.
               </p>
