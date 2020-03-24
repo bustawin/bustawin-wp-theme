@@ -30,15 +30,6 @@ the_post();
   <div class="container my-3">
     <div class="row">
       <div class="col-sm-10">
-        <article class="d-print-none">
-          <p>
-            I co-founded and served as Chief Product Officer (2015 – 2019) and Tech Lead of DeviceTag.io, a
-            social
-            startup
-            that provides solutions for reusing devices using breakthrough technologies, and
-            eReuse.org, a federation that promotes circular economy in the reuse sector.
-          </p>
-        </article>
         <article>
           <header>
             <h2 id="experience">
@@ -50,13 +41,14 @@ the_post();
               <li class="list-inline-item">DeviceTag.io
               <li class="list-inline-item">2015 — 2019
             </ul>
-            <dt class="h5 text-primary">Chief Product Officer</dt>
+            <dt class="h5 text-primary">Product Manager</dt>
             <dd>
               <p>
                 Co-founded DeviceTag.io, a social startup that provides solutions for reusing
-                devices using breakthrough technologies. I managed a dev team of ~7 people, we
-                received 0.5M€ in funding from the governments of the EU (Horizon 2020), Spain,
-                and Catalonia; and we were accelerated by Ship2B, CivicHub, and Ledger.
+                devices using breakthrough technologies, managing a dev team of ~7 people and
+                developing the full-stack; secured 0.5M€ in funding from the governments of the
+                EU (Horizon 2020), Spain, and Catalonia; and we were accelerated by Ship2B,
+                CivicHub, and Ledger.
               </p>
             </dd>
             <ul class="list-inline mb-0 text-muted float-right pt-1">
@@ -220,11 +212,6 @@ the_post();
               <li class="list-inline-item">2010 — 2016
             </ul>
             <dt class="h5 text-primary">Bachelor Degree in Informatics Engineering</dt>
-            <dd>
-              <p>
-                Earned a Computer Engineering degree, specializing in software engineering.
-              </p>
-            </dd>
           </dl>
         </article>
         <hr>
