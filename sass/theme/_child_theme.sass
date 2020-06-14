@@ -1,5 +1,14 @@
 @import child_fonts
 
+body.home main
+  margin-top: 3em
+
+body:not(.home) main
+  margin-top: 1em
+
+#right-sidebar
+  margin-top: 2em
+
 .single-header
   background-color: $jumbotron-bg
   padding-left: 1em
@@ -7,7 +16,8 @@
   padding-top: 3em
 
   &::first-letter
-    font-size: 1.30em
+    font-size: 1.50em
+    line-height: 0
 
 .padding-top
   padding-top: 1em
@@ -126,3 +136,27 @@ code.prettyprint
   @extend .border-primary
   @extend .mt-5
   @extend .pt-5
+
+blockquote
+  margin-left: 2em
+
+  &:before
+    content: '‟'
+    font-size: 400%
+    line-height: 0.7
+    left: 0
+    color: $primary
+    position: absolute
+
+
+.wp-block-table
+  @extend .table
+  @extend .table-striped
+  @extend .table-borderless
+  @extend .table-hover
+
+  border: 1px solid $secondary
+  & tr:first-child td
+    background-color: $secondary !important
+    font-weight: bold
+

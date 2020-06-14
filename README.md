@@ -2,12 +2,12 @@
 The wordpress theme of the bustawin website. It is a child theme of [UnderStrap](https://github.com/understrap/understrap).
 
 ## Developing
+Requirements: node **10**
+
 1. `npm install yarn`
 2. `yarn install`
 3. `gulp copy-assets`
-
-To auto generate assets (css files...):
-`gulp watch`
+4. To generate the CSS files: `gulp watch`
 
 This leaves the CSS at `/css` folder. Note that wordpress oly wants `/css/child-theme.min.css`.
 

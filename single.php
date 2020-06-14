@@ -33,17 +33,25 @@ the_post();
             ?>
         </div><!-- .entry-content -->
         <footer class="entry-footer">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <small>Created <?php the_date(); ?></small>
+            </li>
+            <li class="list-inline-item">
+              <small>Updated <?php the_modified_date() ?></small>
+            </li>
+          </ul>
             <?php understrap_entry_footer(); ?>
         </footer><!-- .entry-footer -->
       </article><!-- #post-## -->
-					<?php
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-					?>
+        <?php
+        // If comments are open or we have at least one comment, load up the comment template.
+        if (comments_open() || get_comments_number()) :
+            comments_template();
+        endif;
+        ?>
     </main><!-- #main -->
-    <?php get_template_part('sidebar-templates/sidebar', 'right'); ?>
+      <?php get_template_part('sidebar-templates/sidebar', 'right'); ?>
   </div><!-- .row -->
 </div><!-- #content -->
 
