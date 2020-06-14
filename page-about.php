@@ -24,8 +24,7 @@ the_post();
   <div class="lead alert alert-warning text-center"
        id="bustawin-lead"
        style="font-family: 'Roboto Slab';">
-    A Software Engineer specialized in project/product management, disruptive
-    technologies (e.g., iOT), software architecture, and python.
+    A Software Engineer specialized in project & product management, software development & architecture, and python.
   </div>
   <div class="container my-3">
     <div class="row">
@@ -41,11 +40,11 @@ the_post();
               <li class="list-inline-item">DeviceTag.io
               <li class="list-inline-item">2015 — 2019
             </ul>
-            <dt class="h5 text-primary">Product Manager</dt>
+            <dt class="h5 text-primary">Product Manager & software developer</dt>
             <dd>
               <p>
                 Co-founded DeviceTag.io, a social startup that provides solutions for reusing
-                devices using breakthrough technologies, managing a dev team of ~7 people and
+                devices using breakthrough technologies, managing a team of ~7 people and
                 developing the full-stack; secured 0.5M€ in funding from the governments of the
                 EU (Horizon 2020), Spain, and Catalonia; and we were accelerated by Ship2B,
                 CivicHub, and Ledger.
@@ -311,22 +310,22 @@ the_post();
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i>
             </dd>
-            <dt class="col-sm-6">Docker</dt>
-            <dd class="col-sm-6 text-right">
-              <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i>
-            </dd>
-            <dt class="col-sm-6">Android</dt>
-            <dd class="col-sm-6 text-right">
-              <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
-            </dd>
-            <dt class="col-sm-6">Blockchain</dt>
-            <dd class="col-sm-6 text-right">
-              <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
-            </dd>
-            <dt class="col-sm-6">NodeJS</dt>
-            <dd class="col-sm-6 text-right">
-              <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
-            </dd>
+              <dt class="col-sm-6">NodeJS</dt>
+              <dd class="col-sm-6 text-right">
+                  <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i>
+              </dd>
+              <dt class="col-sm-6">Docker</dt>
+              <dd class="col-sm-6 text-right">
+                  <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
+              </dd>
+              <dt class="col-sm-6">AWS</dt>
+              <dd class="col-sm-6 text-right">
+                  <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
+              </dd>
+              <dt class="col-sm-6">Blockchain</dt>
+              <dd class="col-sm-6 text-right">
+                  <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
+              </dd>
           </dl>
           <dl class="row">
             <dt class="col-sm-6">Presenting</dt>
