@@ -24,11 +24,11 @@ the_post();
   <div class="lead alert alert-warning text-center"
        id="bustawin-lead"
        style="font-family: 'Roboto Slab';">
-    A Software Engineer specialized in project & product management, software development & architecture, and python.
+    A Software Engineer specialized in project & product management, software development, and python.
   </div>
   <div class="container my-3">
     <div class="row">
-      <div class="col-sm-10">
+      <div class="col-sm-9">
         <article>
           <header>
             <h2 id="experience">
@@ -36,6 +36,18 @@ the_post();
             </h2>
           </header>
           <dl>
+            <ul class="list-inline mb-0 text-muted float-right pt-1">
+              <li class="list-inline-item">Qustodio
+              <li class="list-inline-item">2020 — Present
+            </ul>
+            <dt class="h5 text-primary">Fullstack engineer & business developer</dt>
+            <dd>
+              <p>
+                Joined the new Qustodio Professional team to bring the success of
+                Qustodio, the leading parental control company, to the B2B market
+                —spearheading the development of the new product.
+              </p>
+            </dd>
             <ul class="list-inline mb-0 text-muted float-right pt-1">
               <li class="list-inline-item">DeviceTag.io
               <li class="list-inline-item">2015 — 2019
@@ -146,7 +158,7 @@ the_post();
             </dl>
           </header>
         </article>
-        <article>
+        <article class="page-break">
           <header>
             <h2 id="talks">
               Talks
@@ -238,7 +250,7 @@ the_post();
           </p>
         </article>
       </div>
-      <aside class="col-sm-2">
+      <aside class="col-sm-3">
         <address>
           <h2 id="contact" class="d-print-none">Contact</h2>
           <dl>
@@ -292,16 +304,16 @@ the_post();
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
             </dd>
-            <dt class="col-sm-6">API/REST</dt>
+            <dt class="col-sm-6">API / REST</dt>
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
             </dd>
-            <dt class="col-sm-6">Drupal/PHP</dt>
+            <dt class="col-sm-6">Drupal / PHP</dt>
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i
                   class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i>
             </dd>
-            <dt class="col-sm-6">Debian/Linux</dt>
+            <dt class="col-sm-6">Debian / Linux</dt>
             <dd class="col-sm-6 text-right">
               <i class="fa fa-circle"></i><i
                   class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i>
@@ -384,17 +396,17 @@ the_post();
         </article>
       </aside>
     </div>
-    <div class="row justify-content-center m-3 d-print-none">
+    <!--<div class="row justify-content-center m-3 d-print-none">
       <a class="btn btn-outline-primary col-sm-8 text-center"
          href="<?php print get_stylesheet_directory_uri() . '/img/cv-xavier.pdf' ?>"
          download="CV Xavier Bustamante - bustawin.pdf"
       >
         <i class="fa fa-download fa-fw"></i>Download this CV</a>
-    </div>
-    <p class="text-center d-print-none m-3">
+    </div>-->
+    <p class="text-center m-3">
       <img src="<?php print get_stylesheet_directory_uri() . '/img/timmy-walk.gif' ?>">
       <br>
-      <small>
+      <small class="d-print-none">
         <em>Btw</em>, this little friend is Timmy, and it was drawn by a dearest friend,
         Nataly.
       </small>

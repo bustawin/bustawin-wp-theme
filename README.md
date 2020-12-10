@@ -4,8 +4,12 @@ The wordpress theme of the bustawin website. It is a child theme of [UnderStrap]
 ## Developing
 Requirements: node **10**
 
+If you have nodenv, install node 10 by executing in the root folder of
+this project:
+`nodenv install`
+
 1. `npm install yarn`
-2. `yarn install`
+2. `./node_modules/yarn/bin/yarn install`
 3. `gulp copy-assets`
 4. To generate the CSS files: `gulp watch`
 
