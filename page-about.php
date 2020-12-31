@@ -396,13 +396,13 @@ the_post();
         </article>
       </aside>
     </div>
-    <!--<div class="row justify-content-center m-3 d-print-none">
+    <div class="row justify-content-center m-3 d-print-none">
       <a class="btn btn-outline-primary col-sm-8 text-center"
          href="<?php print get_stylesheet_directory_uri() . '/img/cv-xavier.pdf' ?>"
          download="CV Xavier Bustamante - bustawin.pdf"
       >
         <i class="fa fa-download fa-fw"></i>Download this CV</a>
-    </div>-->
+    </div>
     <p class="text-center m-3">
       <img src="<?php print get_stylesheet_directory_uri() . '/img/timmy-walk.gif' ?>">
       <br>
