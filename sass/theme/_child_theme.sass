@@ -3,14 +3,15 @@
 body.home main
   margin-top: 3em
 
-body:not(.home) main
+body:not(.home, .page-template-page-about-php) main
   margin-top: 1em
 
 #right-sidebar
   margin-top: 2em
 
 .single-header
-  background-color: $jumbotron-bg
+  color: $secondary
+  font-style: italic
   padding-left: 1em
   padding-right: 1em
   padding-top: 3em
@@ -24,7 +25,10 @@ body:not(.home) main
 
 // print
 @page
-  margin: 0
+  margin: 20mm 0
+
+@page :first
+  margin-top: 0
 
 // Bustawin about page
 $bustawin-about-logo-width: 10em
@@ -68,6 +72,8 @@ $bustawin-about-logo-padding: $bustawin-about-logo-width/2 + 0.5em
     font-size: 28px
   p
     margin-top: 1rem
+  .page-template-page-about-php
+    background-color: white
 
 .page-break
   page-break-before: always

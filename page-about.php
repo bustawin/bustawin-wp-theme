@@ -24,7 +24,7 @@ the_post();
   <div class="lead alert alert-warning text-center"
        id="bustawin-lead"
        style="font-family: 'Roboto Slab';">
-    A Software Engineer specialized in project & product management, software development, and python.
+    A Product Engineer specialized in project & product management, software development, and python.
   </div>
   <div class="container my-3">
     <div class="row">
@@ -40,7 +40,7 @@ the_post();
               <li class="list-inline-item">Qustodio
               <li class="list-inline-item">2020 — Present
             </ul>
-            <dt class="h5 text-primary">Fullstack engineer & business developer</dt>
+            <dt class="h5 text-primary">Product engineer & business developer</dt>
             <dd>
               <p>
                 Joined the new Qustodio Professional team to bring the success of
@@ -232,7 +232,7 @@ the_post();
             to
             diverse collectives about software, developing in python, and writing in this blog.
           </p>
-          Creative, agileist, resolutive, and social & environmental activist.
+          Creative, agileist, resolutive, and social & environmental researcher.
           <span class="text-secondary">Become rich by solving poverty.</span>
         </em>
         <article class="d-print-none">
@@ -379,7 +379,7 @@ the_post();
               <i class="fa fa-circle"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i>
             </dd>
           </dl>
-          <dl class="row">
+          <dl class="row page-break">
             <dt class="col-sm-6">Spanish</dt>
             <dd class="col-sm-6 text-right">
               Native
