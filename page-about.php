@@ -24,7 +24,7 @@ the_post();
   <div class="lead alert alert-warning text-center"
        id="bustawin-lead"
        style="font-family: 'Roboto Slab';">
-    A Product Engineer specialized in project & product management, software development, and python.
+    A geeky Product Engineer specialized in software development, product management, academic research, and python.
   </div>
   <div class="container my-3">
     <div class="row">
@@ -37,10 +37,10 @@ the_post();
           </header>
           <dl>
             <ul class="list-inline mb-0 text-muted float-right pt-1">
-              <li class="list-inline-item">Qustodio
+              <li class="list-inline-item">Qustodio Professional
               <li class="list-inline-item">2020 — Present
             </ul>
-            <dt class="h5 text-primary">Product engineer & business developer</dt>
+            <dt class="h5 text-primary">Product Manager & software developer</dt>
             <dd>
               <p>
                 Joined the new Qustodio Professional team to bring the success of
